@@ -1,0 +1,10 @@
+repo_name: 2lambda123/visma
+report_id: 9e22abc9f75d8ba319e5fdd11b7dca9e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:07+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: dev
+detected_tools_count: 0
+tools: []
