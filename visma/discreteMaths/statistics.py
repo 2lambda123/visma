@@ -32,7 +32,7 @@ def ArithemeticMean(sampleSpace):
     """
     animations = []
     comments = []
-    if sampleSpace.values is not []:
+    if sampleSpace.values != []:
         sm = sum(sampleSpace.values)
         animations += [[]]
         comments += [['Sum of all the values of the sample space provided by user: ' + str(sm)]]
@@ -68,7 +68,7 @@ def Mode(sampleSpace):
     animations = []
     comments = []
     token_string = ''
-    if sampleSpace.values is not []:
+    if sampleSpace.values != []:
         mode, frequency = Counter(sampleSpace.values).most_common(1)[0]
         comments += [['The mode refers to the most occuring element']]
         animations += [[]]
@@ -95,7 +95,7 @@ def Median(sampleSpace):
     animations = []
     comments = []
     token_string = ''
-    if sampleSpace.values is not []:
+    if sampleSpace.values != []:
         sizeSampleSpace = sampleSpace.size
         if sizeSampleSpace % 2 == 1:
             medianValue = sorted(sampleSpace.values)[sizeSampleSpace//2]
