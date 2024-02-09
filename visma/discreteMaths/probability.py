@@ -18,7 +18,7 @@ def simpleProbability(sampleSpace, requiredEvent=None):
     comments = []
     events = []
     token_string = ''
-    if sampleSpace.values is not []:
+    if sampleSpace.values != []:
         events.extend(sampleSpace.values)
         totalOccurances = len(events)
         animations += [[]]
