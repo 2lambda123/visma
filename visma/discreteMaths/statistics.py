@@ -14,6 +14,17 @@ class sampleSpace(object):
     size = 0
 
     def __init__(self, values):
+        """This function initializes the values and size attributes of an object.
+        Parameters:
+            - values (list): A list of values to be assigned to the object.
+        Returns:
+            - None: This function does not return any value.
+        Processing Logic:
+            - Initialize values attribute.
+            - Initialize size attribute.
+            - Check if values is not None.
+            - Assign values to the object."""
+        
         if values is not None:
             self.values = values
             self.size = len(values)
